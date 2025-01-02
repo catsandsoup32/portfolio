@@ -4,12 +4,8 @@ header {
     background-color: "white";
 }
 
-.index-inactive{
-    color: cyan; 
-}
-
 .nav-link {
-    text-decoration: none;
+    text-decoration: none; 
     color: #040406;
     margin-left: 30px;
     margin-right: 30px;
@@ -56,6 +52,11 @@ body {
     width: 600px;
     max-width: 100%;
     gap: 20px;
+}
+
+.card:hover{
+    border: 2.5px solid skyblue;
+    border-radius: 12px;
 }
 
 .content {

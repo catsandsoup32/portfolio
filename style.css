@@ -4,10 +4,6 @@ header {
     background-color: "white";
 }
 
-.index-active{
-    background-color: cyan;
-}
-
 .nav-link {
     text-decoration: none;
     color: #040406;
@@ -19,6 +15,54 @@ header {
 
 a:visited {
     color: black; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+}
+
+.my-pic {
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.desc {
+    margin-top: 25px;
+    width: 420px;
+    height: 150px;
+    padding: 10px;
+    font-family: 'Courier New';
+    justify-content: center;
+}
+
+.email {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    display: inline;
+}
+.email:visited {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    display: inline;
+}
+.email:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 0px;
+    font-weight: bold;
 }
 
 
